@@ -58,8 +58,8 @@ Directories
 Files
 -----
 
-+ __dist/__&lt;<i>projectname</i>&gt;__.zip__ Zipfile containing jar file and Application 
-  launcher wrapper script.
++ __dist/__&lt;<i>projectname</i>&gt;__.zip__ Zipfile containing jar file and
+  Application launcher wrapper script.
 
 + __resources/version__ Contains the app version number. This is accessible
   as a jarfile resource from your app, if you want to implement a *--version*
