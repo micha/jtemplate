@@ -14,17 +14,17 @@ Quickstart
 
 1.  Create a github repo.
 
-2.  From the new repo do @git pull git://github.com/micha/jtemplate.git master@.
+2.  From the new repo do `git pull git://github.com/micha/jtemplate.git master`.
 
 3.  Edit the _build.xml_ file to your liking.  The first few properties
     are clearly marked, and are expected to be set for your specific
     project.
 
-4.  Run @ant init@.  This makes you a _/src_ tree with a Main class stub and
+4.  Run `ant init`.  This makes you a _/src_ tree with a Main class stub and
     the _resources/_, _lib/_, and _doc/_ directories for your resource files,
     external jarfile dependencies, and project documentation.
 
-5.  Run @ant install@. This creates the jar file and wrapper script in the
+5.  Run `ant install`. This creates the jar file and wrapper script in the
     _dist/_ directory and installs the wrapper in a bin directory in your
     path (or wherever you specify at the prompt).
 
