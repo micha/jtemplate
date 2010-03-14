@@ -86,8 +86,6 @@ public class Main {
   }
 }
 </echo>
-    <delete dir=".git"/>
-    <delete file="README.markdown"/>
     <touch file=".init"/>
   </target>
 
